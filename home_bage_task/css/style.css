@@ -1,0 +1,374 @@
+
+/* general */
+*{
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section{
+    width: 100%;
+
+}
+.flex{
+    display: flex;
+}
+
+.wrap{
+flex-wrap: wrap;
+}
+.no-wrap{
+    flex-wrap: nowrap;
+}
+
+.center{
+    text-align: center;
+}
+.justify_between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+    /* padding: 0 5%; */
+}
+.width-90{
+    width: 90%;
+
+}
+
+.black-nav{
+    background-color:#333333 ;
+    color: #ffffff;
+    width: 100%;
+}
+.rem7{
+    font-size: 0.75rem;
+    color: #666666;
+}
+.padding2{
+    padding: 1.5% 0;
+}
+.margin-right{
+    margin-right: 10px;
+}
+
+.cursor-pointer{
+cursor: pointer;
+}
+
+.or{
+    color: #E6E6E6;
+}
+
+a{
+    text-decoration: none;
+    color: #999999;
+}
+a:active{
+    color: #ffffff;
+}
+.margin-buttom{
+    margin-bottom: 4%;
+}
+.f-1rem{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.f-6rem{
+    font-size: 0.6rem;
+    color: #666666;
+}
+.margin1{
+    margin: 0.5%;
+}
+/* ////////////////////////////////////////////////////////// */
+
+#sec-nav{
+    border-top:  1px solid #E6E6E6;
+        align-items:end;
+
+}
+.d1{
+    width: 20%;
+}
+.d2{width:60%}
+.d3{
+    width: 20%;
+}
+.logo{
+    width: 80%;    
+}
+
+#sec-nav input{
+    width: 60%;
+    /* height: 5%; */
+      border: 1px solid #ddd;
+    border-right: none;
+    padding:  2%;
+    font-size: 0.9rem;
+    outline: none;
+    border-radius: 6px 0 0 6px;
+
+}
+#sec-nav button{
+    width: 20%;
+    /* height: 10%; */
+    padding: 2% ;
+    background-color:#00B207;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 6px 6px 0;
+    transition: 0.3s;
+}
+
+#sec-nav button:hover{
+    background-color: #0b5518;
+}
+
+/* //////////////////////////////////////// */
+#imgs{
+
+}
+.img1{
+    width: 70%;
+    margin: 1%;
+
+}
+.img2{
+    width: 30%;
+    margin: 1%;
+}
+.img1 img,.img2 img{
+    aspect-ratio: 2/1;
+}
+.text-with-icon-row{
+    box-shadow:0px 1px 2px #999999 ;
+    padding: 2% 2%;
+    border-radius: 3px;
+}
+.text-with-icon-row img{
+    width: 15%;
+    aspect-ratio: 1/1;
+}
+/* /////// */
+.popular div{
+
+width: 15.5%;
+border: 1px solid #E5E5E5 ;
+text-align: center;
+padding: 1%;
+}
+
+.card{
+    width: 19%;
+    border: 1px solid #E5E5E5 ;
+padding: 1%;
+border-radius: 4px;
+position: relative;
+
+
+}
+
+.sale{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 0.8rem;
+    padding: 3% 5%;
+    border-radius: 4px;
+    background-color: #EA4B48;
+    color: #ffffff;
+
+}
+.card-icons{
+    position:absolute;
+    top:10px;
+    right:10px;
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    opacity: 0;
+
+  
+}
+.card-icons i{
+      border-radius: 50%;
+    width: 35px;;
+    height:35px;
+      display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+        background-color:#F2F2F2;
+        color: black;
+}
+.rating{
+    color:#FF8A00;
+    font-size:10px;
+}
+.price{
+    margin:2% 0;
+    font-weight:600;
+        font-size:0.7rem;
+
+    color:black;
+}
+
+.price span{
+    color:#999;
+    font-size:0.6rem;
+    text-decoration:line-through;
+    margin-left:5px;
+}
+
+.card-btn{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    border-radius: 50%;
+    width: 35px;;
+    height:35px;
+      display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+        background-color:#F2F2F2;
+        color: black;
+
+}
+.card:hover{
+    border-color: #00B207;
+        box-shadow:0 1px 1px #00B207;
+
+}
+.card:hover .card-icons{
+    opacity: 1;
+}
+.card:hover .card-btn{
+    background-color: #00B207;
+    color: white;
+}
+
+.three-containers .c1{
+ flex: 1;    
+ aspect-ratio: 1/1;
+  
+    background-image: url("../images/Rectangle 54.png" );
+background-size: cover;
+background-position: center;
+    background-repeat: no-repeat;
+    padding: 5% 2%;
+    margin: 0 1%;
+    border-radius: 8px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+.btn{
+    background-color: white;
+    color: #00B207;
+    text-align: center;
+    padding:6% 9%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5%;
+
+}
+/*////////////////////////////////////////////////////////////*/
+.card2{
+    width: 19%;
+    border: 1px solid #E5E5E5 ;
+padding: 1%;
+border-radius: 4px;
+position: relative;
+background-color: white;
+
+
+}
+
+.card2:hover{
+    width: 40%;
+    height: 40%;
+
+
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+.Hot-Dails{
+    background-color: #F7F7F7;
+    padding: 4%;
+}
+
+.latest-card{
+    width: 33%;
+    margin: 1%;
+    box-shadow: 0 0  1px;
+}
+
+.green{
+    color: #00B207;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.padding{
+    padding: 5%;
+}
+
+.client .fa-arrow-left{
+     border-radius: 50%;
+    width: 35px;;
+    height:35px;
+      display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+        background-color:#ffffff;
+        color: black;
+}
+ .client .fa-arrow-right{
+     border-radius: 50%;
+    width: 35px;;
+    height:35px;
+      display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+        background-color:#00B207;
+        color: white;
+}
+.client{
+    background-color: #F2F2F2;
+}
+.client-card{
+    width: 33.3%;
+    background-color: white;
+    padding:  1%;
+    margin: 1%;
+
+}
+.logoo{
+    width: 100%;
+}
+.d11,.d21,.d31,.d41,.d51,.d61{
+    width: 16%;
+    padding: 5%;
+}
+.follow{
+
+margin: 0 1%;
+}
+
