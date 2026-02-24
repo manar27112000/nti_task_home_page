@@ -1,5 +1,4 @@
-## 🎥 Home Screen Video
+## 🎥 Home Screen Demo
 
-<video width="100%" controls>
-  <source src="https://www.youtube.com/watch?v=O8xQUV3U1og" type="video/mp4">
-</video>
+[![Watch Video](https://img.youtube.com/vi/O8xQUV3U1og/maxresdefault.jpg)]
+(https://www.youtube.com/watch?v=O8xQUV3U1og)
