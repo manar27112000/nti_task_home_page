@@ -23,4 +23,3 @@ Watch the live demo here 👇
 
 ---
 
-## 📂 Project Structure
